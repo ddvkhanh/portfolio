@@ -1,4 +1,5 @@
 import React from 'react';
+import { AttentionSeeker } from "react-awesome-reveal";
 
 export default function About() {
   return (
@@ -8,9 +9,11 @@ export default function About() {
           <p className="text-md font-semibold tracking-tight sm:text-xl">
             Hi there, I am
           </p>
-          <h1 className="text-2xl font-semibold tracking-tight text-teal-600 sm:text-4xl typing-animation">
-            Kathy Dang
-          </h1>
+          <AttentionSeeker effect='bounce'>
+            <h1 className="text-2xl font-semibold tracking-tight text-teal-600 sm:text-4xl">
+              Kathy Dang
+            </h1>
+          </AttentionSeeker>
           <p className="mt-5">
             I am a{" "}
             <span className="font-semibold">
@@ -45,5 +48,7 @@ export default function About() {
       </div>
 
     </div>
+
   );
+
 }
