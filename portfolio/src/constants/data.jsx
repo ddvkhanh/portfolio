@@ -308,7 +308,7 @@ export const projects = [
         demo: "https://togo-app-7b50c51a4f28.herokuapp.com/",
         github: "https://github.com/ddvkhanh/togo-app",
         thumbnail: "/images/togo-img.png",
-        skills: [
+        tech: [
             "Angular",
             "MongoDB",
             "Express.js",
@@ -323,7 +323,7 @@ export const projects = [
         demo: "https://angular-recipe-31e2b.web.app/",
         github: "https://github.com/ddvkhanh/angular-recipe-book",
         thumbnail: "/images/recipe-img.png",
-        skills: [
+        tech: [
             "Angular",
             "Bootstrap",
             "Node.js",
@@ -343,7 +343,7 @@ export const projects = [
         demo: "",
         github: "https://github.com/ddvkhanh/trees-ecommerce",
         thumbnail: "/images/greenery-guard-img.png",
-        skills: [
+        tech: [
             "React",
             "CSS"]
     }

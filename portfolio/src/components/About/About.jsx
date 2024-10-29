@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div id="about" className="bg-slate-100	mx-auto p-10 sm:py-10 lg:py-20 rounded-md shadow-md ">
+    <div id="about" className="bg-slate-100	mx-auto p-10 sm:py-10 lg:py-20 rounded-md shadow-md">
       <div className="gap-10 flex flex-col md:flex-row items-center justify-center">
         <div className="w-3/5 text-pretty text-base font-medium text-gray-500 sm:text-xl">
           <p className="text-md font-semibold tracking-tight sm:text-xl">

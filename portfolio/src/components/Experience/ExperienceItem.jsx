@@ -27,16 +27,13 @@ export default function ExperienceItem() {
                             <p className="">{description.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}</p>
-                            <div className="flex flex-wrap items-center gap-x-4 text-xs m-0">
-                                <p>Skills:</p>
+                            <div className="flex flex-wrap items-center gap-x-4 text-xs">
+                                <p>Technologies:</p>
                                 {skills.map((item, index) => (
                                     <span key={index} className="inline-flex items-center rounded-md bg-teal-50 px-2 py-1 text-xs font-medium text-teal-700 ring-1 ring-inset ring-teals-600/20">{item}</span>
                                 ))}
-
                             </div>
-
                         </div>
-
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             ))}
