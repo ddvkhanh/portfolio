@@ -14,7 +14,7 @@ export default function SkillCard({ title, skill }) {
     return (
         <div className="pt-5 flex" key={title}>
             <p className="text-md sm:text-xl font-semibold w-1/6">{title}</p>
-            <div className="gap-8 flex px-10 overflow-x-auto overflow-y-hidden w-5/6">
+            <div className="gap-8 flex px-10 overflow-x-scroll overflow-y-hidden w-5/6">
                 {
                     skill.map(({ name, icon }) => (
                         <div key={name} className="" aria-label={name}>
