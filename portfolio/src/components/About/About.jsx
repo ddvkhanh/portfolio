@@ -30,7 +30,7 @@ export default function About() {
           </p>
           <div className="mt-10 items-center">
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1ZtrCqQ31A62d2Ygm6JySOvzWsdGagDdB/view?usp=sharing" target='blank' rel="noopener noreferrer"
               className="animated-border rounded-md bg-teal-600 px-3.5 py-2.5 text-xl font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Get My CV
