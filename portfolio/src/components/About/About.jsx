@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div id="about" className="bg-slate-100	mx-auto p-10 sm:py-10 lg:py-20 rounded-md shadow-md">
-      <div className="gap-10 flex">
+    <div id="about" className="bg-slate-100	mx-auto p-10 sm:py-10 lg:py-20 rounded-md shadow-md ">
+      <div className="gap-10 flex flex-col md:flex-row items-center justify-center">
         <div className="w-3/5 text-pretty text-base font-medium text-gray-500 sm:text-xl">
           <p className="text-md font-semibold tracking-tight sm:text-xl">
             Hi there, I am
@@ -35,11 +35,11 @@ export default function About() {
           </div>
         </div>
 
-        <div className="md:shrink-0 w-2/5 flex justify-center items-center overflow-hidden">
+        <div className="md:w-2/5 overflow-hidden flex justify-center items-center">
           <img
             src="/images/Khanh.jpg"
             alt="Portrait"
-            className="rounded-full object-cover w-[80%] border-solid border-5 border-white bg-teal-500 shadow-md shadow-teal-500/50 "
+            className="rounded-full object-cover w-[80%] h-[80%] border-5 border-white bg-teal-500 shadow-md shadow-teal-500/50"
           />
         </div>
       </div>
