@@ -50,7 +50,7 @@ code {
   white-space: nowrap;
   overflow: hidden;
   margin-right: -2px;
-  width: 10ch;
+  width: 14ch;
   animation: typing 3s steps(14) forwards, blink 0.75s step-end infinite;
 }
 
