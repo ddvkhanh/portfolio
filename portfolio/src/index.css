@@ -117,7 +117,12 @@ code {
 
 /*Icons*/
 
-.devicon:hover {
+.devicon:hover  {
+   color:rgba(134, 134, 134, 0.858);
+   opacity: 1;
+}
+
+.icons:hover  {
    color:rgba(134, 134, 134, 0.858);
    opacity: 1;
 }

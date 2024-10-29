@@ -83,9 +83,14 @@ export const skills = [
                     "devicon-spring-original",
             },
             {
-                name: "NodeJs",
+                name: "Node.js",
                 icon:
                     "devicon-nodejs-plain",
+            },
+            {
+                name: "Express.js",
+                icon:
+                    "devicon-express-original",
             },
             {
                 name: "Jenkins",
@@ -107,11 +112,6 @@ export const skills = [
                 icon:
                     "devicon-mysql-original",
             },
-            {
-                name: "Firebase",
-                icon:
-                    "devicon-firebase-plain",
-            },
         ]
     },
     {
@@ -126,6 +126,16 @@ export const skills = [
                 name: "Azure",
                 icon:
                     "devicon-azuredevops-plain",
+            },
+            {
+                name: "Firebase",
+                icon:
+                    "devicon-firebase-plain",
+            },
+            {
+                name: "Heroku",
+                icon:
+                    "devicon-heroku-original",
             },
         ]
     },
@@ -294,30 +304,47 @@ export const certifications = [
 export const projects = [
     {
         title: "Togo App",
-        description: "MEAN stack application to store places to explore in Australia and randomly decide which cuisine to eat out, deployed on Heroku",
-        demo: "",
+        description: "This is my personal MEAN stack app for keeping track of places I want to explore in Australia. It also features a tab that helps me randomly decide which cuisine to try next.",
+        demo: "https://togo-app-7b50c51a4f28.herokuapp.com/",
         github: "https://github.com/ddvkhanh/togo-app",
-        thumbnail: "/images/rmit-logo.png"
+        thumbnail: "/images/togo-img.png",
+        skills: [
+            "Angular",
+            "MongoDB",
+            "Express.js",
+            "Node.js",
+            "Heroku",
+            "Bootstrap"
+        ]
     },
     {
         title: "Recipe Book",
-        description: "Recipe book to store recipe and shopping list.Made with Angular, Bootstrap.Hosted with firebase",
-        demo: "",
+        description: "Sign up and create your own recipe book to save all your favorite recipes along with the ingredients. You can also add those ingredients to your shopping list to make cooking easier!",
+        demo: "https://angular-recipe-31e2b.web.app/",
         github: "https://github.com/ddvkhanh/angular-recipe-book",
-        thumbnail: "/images/projects/project1.png"
+        thumbnail: "/images/recipe-img.png",
+        skills: [
+            "Angular",
+            "Bootstrap",
+            "Node.js",
+            "Firebase"
+        ]
     },
-    {
-        title: "Sports Store",
-        description: "E-commerce",
-        demo: "",
-        github: "https://github.com/ddvkhanh/sports-store",
-        thumbnail: "/images/projects/project1.png"
-    },
+    // {
+    //     title: "Sports Store",
+    //     description: "E-commerce",
+    //     demo: "",
+    //     github: "https://github.com/ddvkhanh/sports-store",
+    //     thumbnail: "/images/projects/project1.png"
+    // },
     {
         title: "Tree E-commerce",
-        description: "Team project build fire retardant trees shopping site. Front-end using React",
+        description: "This was a university team project where we developed a shopping site for fire-retardant trees.",
         demo: "",
         github: "https://github.com/ddvkhanh/trees-ecommerce",
-        thumbnail: "/images/projects/project1.png"
+        thumbnail: "/images/greenery-guard-img.png",
+        skills: [
+            "React",
+            "CSS"]
     }
 ];
