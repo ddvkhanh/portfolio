@@ -181,7 +181,7 @@ export const experiences = [
         id: 0,
         start: "Oct 2021",
         end: "current",
-        title: "Junior Software Engineer",
+        title: "Software Engineer",
         company: "Telstra Health",
         description: [
             "Participated in the technical design and development of digital communication systems (SMS, Email).",
