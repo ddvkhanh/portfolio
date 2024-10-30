@@ -184,14 +184,14 @@ export const experiences = [
         title: "Junior Software Engineer",
         company: "Telstra Health",
         description: [
-            "Participated in the technical design and development of digital communicationsystems (SMS, Email).",
-            "Delivered responsive, user-friendly web applications by contributing to frontend development.",
+            "Participated in the technical design and development of digital communication systems (SMS, Email).",
+            "Delivered responsive, user-friendly web applications by contributing to front-end development.",
             "Led data migration efforts by implementing table triggers, stored procedures, and background tasks to validate, categorize, and ingest data, enabling smooth transfers and accurate business logic execution.",
             "Resolved complex integration issues related to HL7, OCR, and FHIR, facilitating seamless data exchange and system interoperability.",
             "Regularly maintained and upgraded key software dependencies, improving security, performance, and compatibility.",
             "Identified and resolved vulnerabilities uncovered through Penetration testing and Coverity scanning, achieving compliance with CWE security standards.",
             "Troubleshot production incidents, delivering impact analysis, remediation scripts, and permanent fixes to uphold system stability.",
-            "Collaborated with testers, product owners, developers, while mentoring new team members to maintain high quality deliverables"
+            "Collaborated with testers, product owners, developers, while mentoring new team members to maintain high quality deliverables."
 
         ],
         logo: "/images/telstra-health-logo.svg",
@@ -221,7 +221,7 @@ export const experiences = [
         description: [
             "Provided usability feedback on the web interface and implemented enhancements using React.js and supporting libraries, improving chart display and filtering.",
             "Collaborated daily with team members to streamline development workflows.",
-            "Enhanced UI features using, delivering a moreuser - friendly experience",
+            "Enhanced UI features using, delivering a more user - friendly experience.",
             "Refactored code to improve readability and efficiency."
         ],
         logo: "/images/furo-logo.png",
@@ -259,7 +259,7 @@ export const education = [
         end: "2020",
         degree: "Master of Information Technology (Data Analytics)",
         achievement: [
-            "GPA: 3.8",
+            "GPA: 3.8/4",
             "Swinburne International Excellence Scholarship - Postgraduate"
         ],
         logo: "/images/swinburne-logo.jpg"
@@ -270,7 +270,7 @@ export const education = [
         end: "2017",
         degree: "Bachelor's in International Business ",
         achievement: [
-            "GPA: 3.3",
+            "GPA: 3.3/4",
             "RMIT University Vietnam Awards - 2014 Undergraduate Scholarship"
         ],
         logo: "/images/rmit-logo.jpg"
