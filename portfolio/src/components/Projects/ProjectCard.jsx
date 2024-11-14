@@ -5,7 +5,7 @@ export default function ProjectCard({ title, description, demo, github, thumbnai
         <div key={title} className="relative p-6 rounded-md bg-white shadow-md text-gray-600">
             <img src={thumbnail} alt={title} className="w-full h-auto rounded-md" />
 
-            <dt className="text-base font-semibold leading-7 text-gray-900">
+            <dt className="text-base font-semibold leading-7 text-gray-900 pt-2">
                 {title}
             </dt>
             <dd className="mt-2 text-base leading-7">
@@ -14,7 +14,7 @@ export default function ProjectCard({ title, description, demo, github, thumbnai
 
             <dd className="mt-2 text-base leading-7 flex items-center ">
                 <p className="pr-4">Technologies:</p>
-                <div className="flex flex-wrap gap-x-4 m-0 text-xs">
+                <div className="flex flex-wrap gap-2 m-0 text-xs">
                     {tech.map((item, index) => (
                         <span key={index} className="inline-flex items-center rounded-md bg-teal-50 px-2 py-1 text-xs font-medium text-teal-700 ring-1 ring-inset ring-teals-600/20">{item}</span>
                     ))}

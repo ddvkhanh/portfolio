@@ -16,8 +16,8 @@ export default function ExperienceItem() {
                         date={`${start} - ${end}`}
                         iconStyle={{ background: 'rgb(241, 245, 249)', color: '#fff' }}
                         icon={(
-                            <div className="flex items-center justify-center h-10 w-10"> {/* Fixed size for the icon container */}
-                                <img src={logo} alt={`${title} icon`} className="rounded-full " /> {/* Adjust image size */}
+                            <div className="flex items-center justify-center h-10 w-10">
+                                <img src={logo} alt={`${title} icon`} className="rounded-full " />
                             </div>
                         )}
                     >
@@ -27,8 +27,8 @@ export default function ExperienceItem() {
                             <p className="">{description.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}</p>
-                            <div className="flex flex-wrap items-center gap-x-4 text-xs">
-                                <p>Technologies:</p>
+                            <div className="flex m-1 flex-wrap items-center gap-x-2 ">
+                                <h4 className="items-center">Technologies:</h4>
                                 {skills.map((item, index) => (
                                     <span key={index} className="inline-flex items-center rounded-md bg-teal-50 px-2 py-1 text-xs font-medium text-teal-700 ring-1 ring-inset ring-teals-600/20">{item}</span>
                                 ))}

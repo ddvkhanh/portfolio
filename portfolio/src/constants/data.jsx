@@ -78,7 +78,7 @@ export const skills = [
                     "devicon-java-plain",
             },
             {
-                name: "Spring Boot",
+                name: "SpringBoot",
                 icon:
                     "devicon-spring-original",
             },
@@ -197,7 +197,7 @@ export const experiences = [
         logo: "/images/telstra-health-logo.svg",
         skills: [
             "Java",
-            "Spring Boot",
+            "SpringBoot",
             "MSSQL",
             "JavaScript",
             "jquery",
@@ -330,13 +330,16 @@ export const projects = [
             "Firebase"
         ]
     },
-    // {
-    //     title: "Sports Store",
-    //     description: "E-commerce",
-    //     demo: "",
-    //     github: "https://github.com/ddvkhanh/sports-store",
-    //     thumbnail: "/images/projects/project1.png"
-    // },
+    {
+        title: "Todo List",
+        description: "Front-end application to store list of todos.",
+        demo: "https://todo-app-kdang.vercel.app/",
+        github: "https://github.com/ddvkhanh/todo-app",
+        thumbnail: "/images/todos.png",
+        tech: [
+            "React",
+            "TailwindCSS"]
+    },
     {
         title: "Tree E-commerce",
         description: "This was a university team project where we developed a shopping site for fire-retardant trees.",
@@ -346,5 +349,6 @@ export const projects = [
         tech: [
             "React",
             "CSS"]
-    }
+    },
+
 ];
