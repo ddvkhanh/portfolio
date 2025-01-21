@@ -14,17 +14,22 @@ export const contacts = [
 
 export const skills = [
     {
-        title: "Front-End",
+        title: "Programming Languages",
         skill: [
+            {
+                name: "C#",
+                icon:
+                    "devicon-csharp-plain",
+            },
+            {
+                name: "Java",
+                icon:
+                    "devicon-java-plain",
+            },
             {
                 name: "JavaScript",
                 icon:
                     "devicon-javascript-plain",
-            },
-            {
-                name: "jquery",
-                icon:
-                    "devicon-jquery-plain",
             },
             {
                 name: "Angular",
@@ -42,24 +47,14 @@ export const skills = [
                     "devicon-typescript-plain",
             },
             {
-                name: "Bootstrap",
-                icon:
-                    "devicon-bootstrap-plain",
-            },
-            {
-                name: "AntDesign",
-                icon:
-                    "devicon-antdesign-plain",
-            },
-            {
-                name: "Tailwind",
-                icon:
-                    "devicon-tailwindcss-original",
-            },
-            {
                 name: "CSS",
                 icon:
                     "devicon-css3-plain",
+            },
+            {
+                name: "SCSS",
+                icon:
+                    "devicon-sass-plain",
             },
             {
                 name: "HTML",
@@ -70,17 +65,22 @@ export const skills = [
 
     },
     {
-        title: "Back-End",
+        title: "Framework and Tools",
         skill: [
             {
-                name: "Java",
+                name: ".NET Core",
                 icon:
-                    "devicon-java-plain",
+                    "devicon-dotnetcore-plain",
             },
             {
-                name: "SpringBoot",
+                name: "Docker",
                 icon:
-                    "devicon-spring-original",
+                    "devicon-docker-plain",
+            },
+            {
+                name: "NextJs",
+                icon:
+                    "devicon-nextjs-original-wordmark",
             },
             {
                 name: "Node.js",
@@ -93,9 +93,40 @@ export const skills = [
                     "devicon-express-original",
             },
             {
-                name: "Jenkins",
+                name: "SpringBoot",
                 icon:
-                    "devicon-jenkins-line",
+                    "devicon-spring-original",
+            },
+            {
+                name: "Swagger",
+                icon:
+                    "devicon-swagger-plain",
+            },
+            {
+                name: "Git",
+                icon:
+                    "devicon-git-plain",
+            },
+        ]
+    },
+
+    {
+        title: "Database and Clouds",
+        skill: [
+            {
+                name: "AWS",
+                icon:
+                    "devicon-amazonwebservices-plain-wordmark",
+            },
+            {
+                name: "Azure",
+                icon:
+                    "devicon-azuredevops-plain",
+            },
+            {
+                name: "Firebase",
+                icon:
+                    "devicon-firebase-plain",
             },
             {
                 name: "MSSQL",
@@ -115,31 +146,6 @@ export const skills = [
         ]
     },
     {
-        title: "Clouds",
-        skill: [
-            {
-                name: "AWS",
-                icon:
-                    "devicon-amazonwebservices-plain-wordmark",
-            },
-            {
-                name: "Azure",
-                icon:
-                    "devicon-azuredevops-plain",
-            },
-            {
-                name: "Firebase",
-                icon:
-                    "devicon-firebase-plain",
-            },
-            {
-                name: "Heroku",
-                icon:
-                    "devicon-heroku-original",
-            },
-        ]
-    },
-    {
         title: "Agile (Scrum)",
         skill: [
             {
@@ -151,26 +157,6 @@ export const skills = [
                 name: "Confluence",
                 icon:
                     "devicon-confluence-plain",
-            },
-        ]
-    },
-    {
-        title: "Others",
-        skill: [
-            {
-                name: "Postman",
-                icon:
-                    "devicon-postman-plain",
-            },
-            {
-                name: "Swagger",
-                icon:
-                    "devicon-swagger-plain",
-            },
-            {
-                name: "Git",
-                icon:
-                    "devicon-git-plain",
             },
         ]
     },

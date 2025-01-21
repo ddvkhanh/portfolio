@@ -12,21 +12,24 @@ import { Slide } from "react-awesome-reveal";
 
 function App() {
   return (
-    <Router>
-      <div className="bg-white container mx-auto">
-        <NavBar />
-        <Slide cascade damping={0.1} triggerOnce>
-          <About />
-          <Skills />
-          <hr />
-          <Experience />
-          <hr />
-          <Education />
-          <Projects />
-        </Slide>
-        <Footer />
-      </div>
-    </Router>
+    <div className="">
+      <Router>
+        <div className="bg-white mx-auto">
+          <NavBar />
+          <Slide cascade damping={0.1} triggerOnce>
+            <About />
+            <Skills />
+            <hr />
+            <Experience />
+            <hr />
+            <Projects />
+            <Education />
+          </Slide>
+          <Footer />
+        </div>
+      </Router>
+    </div>
+
   );
 }
 

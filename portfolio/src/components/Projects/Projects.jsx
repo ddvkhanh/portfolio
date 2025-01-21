@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 
 export default function Projects() {
   return (
-    <div id="projects" className="mx-auto p-10 sm:py-10 lg:py-20 bg-gradient-to-r from-slate-100 to-teal-600 rounded-md shadow-md">
+    <div id="projects" className="mx-auto p-10 sm:py-10 lg:py-20 bg-gradient-to bg-slate-100 rounded-md shadow-md">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-teal-600">

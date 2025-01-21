@@ -15,8 +15,8 @@ export default function Skills() {
             </p>
           </div>
           <div className="pt-5 text-gray-600">
-            {skills.map(({ title, skill }) => (
-              <SkillCard key={title} title={title} skill={skill} />
+            {skills.map(({ title, skill }, index) => (
+              <SkillCard key={title} title={title} skill={skill} stripe={index % 2 === 0 ? 'bg-gray-100' : 'bg-white'} />
             ))}
           </div>
         </div>

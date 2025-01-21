@@ -2,7 +2,7 @@ import ReactCardFlip from 'react-card-flip';
 import React, { useState, useEffect } from 'react';
 
 
-export default function SkillCard({ title, skill }) {
+export default function SkillCard({ title, skill, stripe }) {
     const [isFlipped, setIsFlipped] = useState(false);
 
     useEffect(() => {
@@ -12,7 +12,7 @@ export default function SkillCard({ title, skill }) {
     }, [])
 
     return (
-        <div className="pt-5 flex flex-wrap divide-y-4 divide-dashed" key={title}>
+        <div className={`p-3 flex flex-wrap ${stripe} py-4`} key={title}>
             <p className="text-md sm:text-xl font-semibold w-full sm:w-1/6 flex items-center">{title}</p>
             <div className="gap-8 flex flex-wrap w-full sm:w-5/6 justify-center">
                 {skill.map(({ name, icon }) => (

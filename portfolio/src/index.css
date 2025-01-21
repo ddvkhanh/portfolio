@@ -126,3 +126,9 @@ code {
    color:rgba(134, 134, 134, 0.858);
    opacity: 1;
 }
+
+.yellowtail-regular {
+  font-family: "Yellowtail", serif;
+  font-weight: 400;
+  font-style: normal;
+}
