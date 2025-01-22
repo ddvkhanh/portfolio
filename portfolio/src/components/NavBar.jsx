@@ -45,7 +45,7 @@ export default function NavBar() {
             <HashLink
               key={item.name}
               smooth to={`/#${item.href}`}
-              className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-300 hover:bg-gray-500"
+              className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-200 hover:bg-gray-600"
             >{item.name}</HashLink>
           ))}
         </div>
